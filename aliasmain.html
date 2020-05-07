@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<title> Alias Juice and Smoothies </title>
+<html>
+<head>
+	<link rel = "stylesheet" href = "aliasstyle.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	<link href="https://fonts.googleapis.com/css?family=Gotham+Rail+Company+NF|Vast+Shadow|Ribeye|Diplomata+SC|Euphoria+Script|Delius+Unicase|Short+Stack|Handlee|Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+		
+	<!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="https://thehealthytart.com/wp-content/uploads/2017/09/Mango-Matcha-Green-Smoothie_landscape.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://eco18.com/wp-content/uploads/2017/01/AdobeStock_62022179.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.feastingathome.com/wp-content/uploads/2016/01/mexicali-green-smoothie-111.jpg" style="width:100%">
+        </div>
+        <!-- Next and previous buttons -->
+        <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <br>
+    
+	<div class = "cap1">
+		<h1> Rise and Energize! </h1>
+	</div>
+	<div class = "cap2">
+		<p> Morning, afternoon or night, rain or shine, a smoothie is a welcomed treat anytime! </p>
+	</div>
+    <img class = "whypic"; src= "https://www.veggiessavetheday.com/wp-content/uploads/2015/08/Pineapple-Green-Smoothie-FI-e1555529211623.jpg";>
+	<div class = "cap3"> 
+		<h1> ALIAS </h1>
+	</div>
+	<div class = "cap4"> 
+		<p> why </p>
+        <br>
+		<p> juice and smoothies? </p>
+	</div>
+	<div class = "cap5">
+		<h4> Taste the Alias Difference </h4>
+        <p> At Alias Juice and Smoothies, every choice you make is a good one! You can trust us to make delicious, good-for-you smoothies and juices using only the best fruits, fresh vegetables, and natural ingredients. We believe you shouldn’t have to sacrifice taste for a healthy alternative – or health for a tasty one. We make it easy and enjoyable to take good care of yourself. </p>
+		<p> Whatever you choose is guaranteed to be as nutritious as it is tasty and delicious. A small choice at Alias makes a big difference. Trust Alias to create hand-crafted, great-tasting, nutritious alternatives that will keep you energized and satisfied. You have enough choices to make in a day. Alias is an easy one. </p>
+        <br>
+        <p><a href = "aliasmenu.html"> view menu! </a></p>
+        <br>
+        <br>
+	</div>
+	<div class = "capt7">
+		<p> Health Never Tasted This Good! </p>
+	</div>
+	
+	
+	<ul class = "navbar">
+		<li><a href = "aliaslocations.html"> locations </a></li>
+		<li><a href = "aliasmenu.html"> menu </a></li>
+		<li><a href = "aliasmain.html"> home </a></li>
+	</ul>
+
+	<img class = "logocircle"; src = "aliaslogocircle.png";>
+	<img class = "logotitle"; src = "aliaslogotitle.png";>
+	 
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+    
+</body>
+</html>
