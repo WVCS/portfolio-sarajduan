@@ -1,385 +1,308 @@
 body {
-	background-color: white;
-	font-family: "Short Stack", serif;
+	background-color: #ffffff;
+	font-family: "Rokkitt", serif;
 	color: black;
 }
-h2 {
-	font-family: "Handlee", serif;
-}
 h4 {
-    font-family: "Delius Unicase", serif;
+    font-family: "Rokkitt", serif;
     font-size: 22pt;
 }
 a {
-	color: #2D4B0D;
+	color: #8f7a6a;
 }
 ul.navbar {
-  list-style-type: none;
-  width: 100%;
-  overflow: hidden;
-  margin: 0%;
-  padding: 3%;
-  position: fixed;
-  top: 0;
-  border: 2px black;
-  font-size: 20px;
-  background-color: white;
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px black;
+    font-size: 20px;
+    background-color: #f3ede8;
+    z-index: 1;
 }
 .navbar li {
-  display: inline;
-  float: right;
-  margin-right: 50px;
+    display: inline;
+    float: right;
+    margin-right: 70pt;
 }
 li a {
-  display: flex;
-  text-decoration: none;
-  padding: 10px 40px;
-  color: black;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: #8f7a6a;
 }
 li a:hover {
-  background-color: #93CA9B;
-  color: white;
+    background-color: #8f7a6a;
+    color: #f3ede8;
 }
-img.logocircle {
-  position: fixed;
-  left: 50px;
-  width: 15%;
-  top: -1%;
+div.logo {
+    position: fixed;
+    left: 50px;
+    width: 15%;
+    top: 2.5%;
+    z-index: 1;
+    color: #8f7a6a;
+    font-size: 15pt;
 }
-img.logotitle {
-  position: fixed;
-  left: 300px;
-  width: 15%;
-  top: 4.5%;
-}
-.carousel-inner img {
-    margin-top: 3%;
-	width: 100%;
-    height: 100%;
-  }
-div.cap1 {
+div.block1 {
 	position: absolute;
-	width: 80%;
+	width: 60%;
 	left: 5%;
-	top: 75%;
-	color: white;
-	font-size: 70pt;
-	font-family: "Euphoria Script", serif;
+	top: 13%;
+    background-color: #d5d5d5;
+	color: #d5d5d5;
+	font-size: 75pt;
 }
 @media (max-width: 1401px) {
     div.caption1 {
         font-size: 20pt;
     }
 }
-div.cap2 {
+div.block2 {
 	position: absolute;
-	width: 50%;
-	left: 13%;
-	top: 115%;
-	color: white;
-	font-size: 15pt;
+	width: 30%;
+	left: 49%;
+	top: 28%;
+    margin: 1%;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 0%;
+	background-color: #f3ede8;
+    color: #8f7a6a;
+	font-size: 12pt;
 }
-div.cap3 {
+img.pic1 {
+    left: 15%;
+    width: 35%;
+    top: 25%;
+    z-index: 1;
+    position: absolute;
+}
+div.block3 {
 	position: absolute;
-	width: 40%;
+	width: 10%;
+	left: 72%;
+	top: 67%;
+    color: #8f7a6a;
+	font-size: 10pt;
+    line-height: 1;
+    text-align: right;
+}
+div.end1 {
+	position: absolute;
+    overflow: hidden;
+	width: 94%;
+	left: 0;
+	top: 90%;
+    background-color: #d5d5d5;
+	color: #ffffff;
+    padding: 1%;
+    padding-right: 5%;
+    text-align: right;
+	font-size: 12pt;
+    line-height: 0.7;
+}
+div.block4 {
+	position: absolute;
+	width: 90%;
 	left: 5%;
-	top: 175%;
-	color: black;
-	font-size: 50pt;
-	font-family: "Vast Shadow", serif;
+	top: 25%;
+    background-color: #848484;
+	color: #848484;
+	font-size: 200pt;
 }
-div.cap4 {
+div.block5 {
 	position: absolute;
-	width: 40%;
-	left: 5%;
-	top: 177%;
-	color: black;
-	font-size: 30pt;
-	font-family: "Vast Shadow", serif;
-	text-align: center;
-}
-img.whypic {
-    right: 5%;
-    width: 50%;
-    top: 150%;
-}
-div.cap5 {
-	position: absolute;
-    left: 50%;
-	width: 50%;
-    height: 94.5%;
-	top: 148.5%;
-	background-color: #BFD066;
+    left: 19%;
+	width: 27%;
+	top: 44%;
+	background-color: #f3ede8;
+    color: #848484;
 	padding: 4%;
-    line-height: 2;
-    text-align: center;
-}
-img.headerpic {
-    width: 100%;
-    height: 100%;
-    top: 15%;
-    opacity: 85%;
-}
-div.header {
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    text-align: center;
-    font-size: 80pt;
-    color: white;
-    font-family: "Sacramento", serif;
-}
-img.acaipic {
-    position: absolute;
-    width: 60%;
-    top: 15%;
-    left: 40%;
-}
-div.location {
-    position: absolute;
-    background-color: #B0D7D0;
-    color: white;
-    width: 40%;
-    height: 76.5%;
-    top: 15%;
-    padding: 4%;
-    line-height: 2;
-    text-align: center;
-}
-.menu {
-	grid-area: MENU;
-}
-.item-a {
-  grid-area: JUICES;
-}
-.item-b {
-  grid-area: thegreenie;
-}
-.item-c {
-  grid-area: toxinflush;
-}
-.item-d {
-  grid-area: thesublime;
-}
-.item-e {
-  grid-area: thelittlebeet;
-}
-.item-f {
-  grid-area: greenappledetox;
-}
-.item-g {
-  grid-area: thebuzz;
-}
-.item-h {
-  grid-area: ENERGIZINGELIXIRS;
-}
-.item-i {
-  grid-area: applecidervinegarelixir;
-}
-.item-j {
-  grid-area: greenapplesparkler;
-}
-.item-k {
-  grid-area: FUSIONBLENDS;
-}
-.item-l {
-  grid-area: bananaboost;
-}
-.item-m {
-  grid-area: slendergreens;
-}
-.item-n {
-  grid-area: tropicalcooler;
-}
-.item-o {
-  grid-area: SMOOTHIES;
-}
-.item-p {
-  grid-area: coldbrewprotein;
-}
-.item-q {
-  grid-area: turmericsunrise;
-}
-.item-r {
-  grid-area: berrybananaburst;
-}
-.item-s {
-  grid-area: pinkflamingo;
-}
-.item-t {
-  grid-area: healthnut;
-}
-.item-u {
-  grid-area: popeyesacai;
-}
-.item-v {
-  grid-area: mangodelight;
-}
-.item-w {
-  grid-area: orangecrush;
-}
-.item-x {
-  grid-area: ACAIBOWLS;
-}
-.item-y {
-  grid-area: acaibananaberrybowl;
-}
-.item-z {
-  grid-area: acaimangobowl;
-}
-.item-a2 {
-  grid-area: dragonfruitbowl;
-}
-.item-b2 {
-  grid-area: acaipeanutbutter;
-}
-.item-c2 {
-  grid-area: proteinpowerbowl;
-}
-.item-d2 {
-  grid-area: acaisuperfoodbowl;
-}
-.item-e2 {
-  grid-area: SKOOPS;
-}
-.item-f2 {
-  grid-area: vegancoconutvanillaskoop;
-}
-.item-g2 {
-  grid-area: veganchocolateblissskoop;
-}
-.item-h2 {
-  grid-area: GRABNGOS;
-}
-.item-i2 {
-  grid-area: classicgreens;
-}
-.item-j2 {
-  grid-area: originalskinnylemonade;
-}
-.item-k2 {
-  grid-area: berrydetoxskinnylemonade;
-}
-.item-l2 {
-  grid-area: superfoodprotein;
-}
-.item-m2 {
-  grid-area: strawberrypitaya;
-}
-.item-n2 {
-  grid-area: turmericcitruislemonade;
-}
-.item-o2 {
-  grid-area: CLEANSES;
-}
-.item-p2 {
-  grid-area: celerydetox;
-}
-.item-q2 {
-  grid-area: classicdetox;
-}
-.itemplusone {
-    grid-area: matchalemonsqueeze;
-}
-.itemplustwo {
-    grid-area: carribeanpassion;
-}
-.itemplusthree {
-    grid-area: strawberrysurfrider;
-}
-.itemplusfour {
-    grid-area: orangecarrotkarma;
-}
-.itemplusfive {
-    grid-area: greenteamatchaskoop;
-}
-.container {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 70px 20px 20px 70px 20px 70px 20px 70px 20px 20px 70px 20px 70px 20px 70px 20px 70px;
-    grid-template-areas: 
-        "JUICES JUICES JUICES JUICES JUICES"
-        "thegreenie toxinflush thesublime thelittlebeet greenappledetox"
-        "thebuzz matchalemonsqueeze . . ."
-        "ENERGIZINGELIXIRS ENERGIZINGELIXIRS ENERGIZINGELIXIRS ENERGIZINGELIXIRS ENERGIZINGELIXIRS"
-        "applecidervinegarelixir greenapplesparkler carribeanpassion . ."
-        "FUSIONBLENDS FUSIONBLENDS FUSIONBLENDS FUSIONBLENDS FUSIONBLENDS"
-        "bananaboost slendergreens tropicalcooler orangecarrotkarma strawberrysurfrider"
-        "SMOOTHIES SMOOTHIES SMOOTHIES SMOOTHIES SMOOTHIES"
-        "coldbrewprotein turmericsunrise berrybananaburst pinkflamingo healthnut"
-        "popeyesacai mangodelight orangecrush strawberrypitaya ."
-        "ACAIBOWLS ACAIBOWLS ACAIBOWLS ACAIBOWLS ACAIBOWLS"
-        "acaibananaberrybowl acaimangobowl dragonfruitbowl acaipeanutbutter acaisuperfoodbowl"
-        "SKOOPS SKOOPS SKOOPS SKOOPS SKOOPS"
-        "vegancoconutvanillaskoop veganchocolateblissskoop greenteamatchaskoop . ."
-        "GRABNGOS GRABNGOS GRABNGOS GRABNGOS GRABNGOS"
-        "classicgreens originalskinnylemonade berrydetoxskinnylemonade superfoodprotein turmericcitruislemonade"
-        "CLEANSES CLEANSES CLEANSES CLEANSES CLEANSES"
-        "celerydetox classicdetox . . .";
-    grid-gap: 10px;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    
-}
-.container div:nth-child(even){
-	background-color: #B0DE75;
-}
-.container div:nth-child(odd){
-	background-color: #E0F2C8;
-}
-
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    margin-top: 10%;
-}
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-/* Next & previous buttons */
-button.prev, button.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    font-size: 13pt;
+    line-height: 1;
+    text-align: left;
+}
+img.pic2 {
+	position: absolute;
+	width: 35%;
+	left: 50%;
+	top: 34%;
+    z-index: 1;
+}
+img.pic3 {
+	position: absolute;
+	width: 30%;
+	left: 12%;
+	top: 90%;
+    z-index: 1;
+}
+div.block6 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 160%;
+    background-color: #bea48d;
+	color: #bea48d;
+	font-size: 191.4pt;
+}
+div.block7 {
+	position: absolute;
+	width: 42%;
+	left: 50%;
+	top: 160%;
+    background-color: #f3ede8;
+	color: #bea48d;
+	padding: 4%;
+	font-size: 13pt;
+    line-height: 1;
+    text-align: left;
+}
+img.pic4 {
+	position: absolute;
+	width: 30%;
+	left: 55%;
+	top: 198%;
+    z-index: 1;
+}
+img.pic5 {
+	position: absolute;
+	width: 37%;
+	left: 8%;
+	top: 170%;
+    z-index: 1;
+}
+div.block8 {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 280%;
+    background-color: #d5d5d5;
+	color: #d5d5d5;
+	font-size: 200pt;
+}
+div.block9 {
+	position: absolute;
+	width: 36%;
+	left: 13%;
+	top: 300%;
+    background-color: #f3ede8;
+	color: #bea48d;
+	padding: 4%;
+    padding-right: 6%;
+	font-size: 13pt;
+    line-height: 1;
+    text-align: left;
+}
+img.pic6 {
+	position: absolute;
+	width: 25%;
+	left: 55%;
+	top: 290%;
+    z-index: 1;
+}
+div.block10 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 415%;
+    background-color: #827F77;
+	color: #827F77;
+	font-size: 80pt;
+}
+div.block11 {
+	position: absolute;
+	width: 18%;
+	left: 31%;
+	top: 405%;
+    background-color: #f3ede8;
+	color: #827F77;
+	padding: 4%;
+	font-size: 13pt;
+    line-height: 1;
+    text-align: left;
+}
+img.pic7 {
+	position: absolute;
+	width: 25%;
+	left: 8%;
+	top: 420%;
+    z-index: 1;
+}
+img.pic8 {
+	position: absolute;
+	width: 15%;
+	left: 75%;
+	top: 450%;
+    z-index: 1;
+}
+div.end2 {
+	position: absolute;
+    overflow: hidden;
+	width: 94%;
+	left: 0;
+	top: 480%;
+    background-color: #d5d5d5;
+	color: #ffffff;
+    padding: 1%;
+    padding-right: 5%;
+    text-align: right;
+	font-size: 12pt;
+    line-height: 0.7;
+}
+div.block12 {
+	position: absolute;
+	width: 13.5%;
+	left: 40%;
+	top: 30%;
+    background-color: #CCAF9B;
+	color: #CCAF9B;
+	font-size: 20pt;
+    z-index: 1;
+}
+div.block13 {
+	position: absolute;
+	width: 18%;
+	left: 52%;
+	top: 15%;
+    background-color: #ededed;
+	color: #bea48d;
+	padding: 4%;
+	font-size: 12pt;
+    line-height: 1;
+    text-align: left;
+}
+div.block14 {
+	position: absolute;
+	width: 40%;
+	left: 10%;
+	top: 53%;
+    background-color: #C1B5A5;
+	color: #C1B5A5;
+	font-size: 95pt;
+}
+img.pic9 {
+	position: absolute;
+	width: 35%;
+	left: 12.5%;
+	top: 57%;
+    z-index: 1;
+}
+div.end3 {
+	position: absolute;
+    overflow: hidden;
+	width: 94%;
+	left: 0;
+	top: 113%;
+    background-color: #d5d5d5;
+	color: #ffffff;
+    padding: 1%;
+    padding-right: 5%;
+    text-align: right;
+	font-size: 12pt;
+    line-height: 0.7;
 }
