@@ -1,3 +1,397 @@
 body {
+	background-color: #efe9de;
+	font-family: "Short Stack", serif;
+	color: black;
+}
+h2 {
+	font-family: "Handlee", serif;
+}
+h4 {
+    font-size: 22pt;
+}
+a {
+	color: #2D4B0D;
+}
+ul.navbar {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px black;
+    font-size: 20px;
+}
+@media () {
+    ul.navbar {
+        background-color: #efe9de;
+    }
+}
+.navbar li {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+}
+li a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+}
+li a:hover {
+    background-color: white;
+    color: #db7277;
+}
+div.logo {
+    position: fixed;
+    top: 1%;
+    left: 5%;
+    z-index: 1;
+    color: white;
+}
+img.bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+img.text1 {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 22%;
+}
+div.text2 {
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 80%;
+	color: white;
+	font-size: 15pt;
+    text-align: center;
+}
+@media (max-width: 1401px) {
+    div.text2 {
+        font-size: 20pt;
+    }
+}
+ul.download {
+    list-style-type: none;
+    width: 70%;
+    margin: 0;
+    padding: 1%;
+    position: absolute;
+    top: 73%;
+    left: 16%;
+    font-size: 13px;
+    align-items: center;
+}
+.download li {
+    display: inline;
+    float: left;
+    margin-right: 50px;
+    border: 2px white;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #db7277;
+    border: 10px white;
+}
+div.slideshow-container {
+    position: absolute;
+    top: 137%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.carousel-inner img {
+	width: 100%;
+    height: 100%;
+  }
+div.text3 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 105%;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+	color: white;
+    background-color: #593436;
+	font-size: 10pt;
+	text-align: left;
+}
+div.text4 {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 232%;
+	color: white;
+    background-color: #593436;
+	font-size: 10pt;
+	text-align: left;
+}
+div.end1 {
+	position: absolute;
+    left: 0;
+	width: 100%;
+	top: 229%;
+    color: #593436;
+	background-color: #593436;
+	padding: 4%;
+    line-height: 2;
+    font-size: 20pt;
+    text-align: center;
+}
+img.bg2 {
+    position: absolute;
+    width: 70%;
+    top: 10%;
+    left: 15%;
+}
+div.text5 {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+}
+div.end2 {
+	position: absolute;
+    left: 0;
+	width: 100%;
+	top: 400%;
+    color: #593436;
+	background-color: #593436;
+	padding: 4%;
+    line-height: 2;
+    font-size: 20pt;
+    text-align: center;
+}
+div.text6 {
+    position: absolute;
+    background-color: #B0D7D0;
+    color: white;
+    width: 40%;
+    top: 15%;
+    padding: 4%;
+    line-height: 2;
+    text-align: center;
+}
+div.end3 {
+	position: absolute;
+    left: 0;
+	width: 100%;
+	top: 90%;
+    color: #593436;
+	background-color: #593436;
+	padding: 4%;
+    line-height: 2;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.item-a {
+    grid-area: a;
+    padding: 6%;
+    line-height: 1;
+}
+.item-b {
+    grid-area: b;
+    padding: 6%;
+    line-height: 1;
+}
+.item-c {
+    grid-area: c;
+    padding: 6%;
+    line-height: 1;
+}
+.item-d {
+    grid-area: d;
+    padding: 6%;
+    line-height: 1;
+}
+.item-e {
+    grid-area: e;
+    padding: 6%;
+    line-height: 1;
+}
+.item-f {
+    grid-area: f;
+    padding: 6%;
+    line-height: 1;
+}
+.item-g {
+    grid-area: g;
+    padding: 6%;
+    line-height: 1;
+}
+.item-h {
+    grid-area: h;
+    padding: 6%;
+    line-height: 1;
+}
+.item-i {
+    grid-area: i;
+    padding: 6%;
+    line-height: 1;
+}
+.item-j {
+    grid-area: j;
+    padding: 6%;
+    line-height: 1;
+}
+.item-k {
+    grid-area: k;
+    padding: 6%;
+    line-height: 1;
+}
+.item-l {
+    grid-area: l;
+    padding: 6%;
+    line-height: 1;
+}
+.item-m {
+    grid-area: m;
+    padding: 6%;
+    line-height: 1;
+}
+.item-n {
+    grid-area: n;
+    padding: 6%;
+    line-height: 1;
+}
+.item-o {
+    grid-area: o;
+    padding: 6%;
+    line-height: 1;
+}
+.item-p {
+    grid-area: p;
+    padding: 6%;
+    line-height: 1;
+}
+.item-q {
+    grid-area: q;
+    padding: 6%;
+    line-height: 1;
+}
+.item-r {
+    grid-area: r;
+    padding: 6%;
+    line-height: 1;
+}
+.item-s {
+    grid-area: s;
+    padding: 6%;
+    line-height: 1;
+}
+.item-t {
+    grid-area: t;
+    padding: 6%;
+    line-height: 1;
+}
+.item-u {
+    grid-area: u;
+    padding: 6%;
+    line-height: 1;
+}
+.item-v {
+    grid-area: v;
+    padding: 6%;
+    line-height: 1;
+}
+.item-w {
+    grid-area: w;
+    padding: 6%;
+    line-height: 1;
+}
+.item-x {
+    grid-area: x;
+    padding: 6%;
+    line-height: 1;
+}
+.item-y {
+    grid-area: y;
+    padding: 6%;
+    line-height: 1;
+}
+.item-z {
+    grid-area: z;
+    padding: 6%;
+    line-height: 1;
+}
+.item-z2 {
+    grid-area: z2;
+    padding: 6%;
+    line-height: 1;
+}
+.container {
+    position: absolute;
+    top: 105%;
+    left: -4%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 22% 22% 22% 22% 5%;
+    grid-template-rows: 15% 16% 16% 16% 16% 16% 16%;
+    grid-template-areas: 
+        ". a b c d ."
+        ". e f g h ."
+        ". i j k l ."
+        ". m n o p ."
+        ". q r s t ."
+        ". u v w x ."
+        ". y z z2 . .";
+    grid-gap: 2%;
+    text-align: center;
+    align-content: center;
     
+}
+.container div:nth-child(even){
+	background-color: darksalmon;
+}
+.container div:nth-child(odd){
+	background-color: #db7277;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin-top: 10%;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+button.prev, button.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightgray;
 }

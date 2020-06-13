@@ -6,39 +6,90 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="HandheldFriendly" content="true">
-	<link href="https://fonts.googleapis.com/css?family=Gotham+Rail+Company+NF|Vast+Shadow|Ribeye|Rokkitt|Diplomata+SC|Euphoria+Script|Delius+Unicase|Short+Stack|Handlee|Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gotham+Rail+Company+NF|Vast+Shadow|Ribeye|Diplomata+SC|Euphoria+Script|Delius+Unicase|Short+Stack|Handlee|Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
     
-	<div class = "block1">
-        <p> . </p>
-        <p> . </p>
+	<!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+             <img src="beatlescarousel1.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="beatlescarousel2.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="beatlescarousel3.png" style="width:100%">
+        </div>
+        <!-- Next and previous buttons -->
+        <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <br>
+    
+    <img class = "bg"; src = "https://data.whicdn.com/images/232389419/original.jpg">	
+    <img class = "text1"; src = "beatleslogo.png">
+	<div class = "text2">
+		<p> John Lennon, Paul McCartney, George Harrison, & Ringo Starr </p>
 	</div>
-	<div class = "block2">
-		<h1> Sara Duan </h1>
-        <p> a high school student just trying to get a cookie. </p>
+    <ul class = "download">
+		<li><a href = "https://music.apple.com/us/artist/the-beatles/136975"> apple music </a></li>
+		<li><a href = "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"> spotify </a></li>
+		<li><a href = "https://www.amazon.com/The-Beatles/e/B000APTK6K"> amazon </a></li>
+		<li><a href = "https://music.apple.com/us/artist/the-beatles/136975"> itunes </a></li>
+		<li><a href = "https://play.google.com/store/music/artist/The_Beatles?id=Apyx6rt3d2amstq7u3ntxenxhkq&hl=en_US"> google play </a></li>
+	</ul>
+    
+    <div class = "text3"> 
+		<h4> Who Are The Beatles? </h4>
+        <p> The Beatles were an English rock band, formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison and Ringo Starr, they became widely regarded as the foremost and most influential act of the rock era. In the early 1960s, their enormous popularity first emerged as "Beatlemania", which is a term that describe the intense fan frenzy directed toward the British band. The phenomenon began in 1963 and continued past the band's breakup in 1970. </p>
+        <p>The Beatles built their reputation playing clubs in Liverpool and Hamburg over a three-year period from 1960, with Stuart Sutcliffe initially serving as bass player. The core of Lennon, McCartney and Harrison went through a succession of drummers, most notably Pete Best, before asking Starr to join them. They gained popularity in the United Kingdom after their first hit, "Love Me Do", in late 1962. They acquired the nickname "the Fab Four" as Beatlemania grew in Britain over the following year, and by early 1964 they had become international stars, leading the "British Invasion" of the United States pop market. From 1965 onwards, the Beatles produced what many consider their finest material, including the innovative and widely influential albums Rubber Soul (1965), Revolver (1966), Sgt. Pepper's Lonely Hearts Club Band (1967), The Beatles (commonly known as the White Album, 1968) and Abbey Road (1969). </p>
+        <p> After their break-up in 1970, they each enjoyed successful musical careers of varying lengths. McCartney and Starr, the surviving members, remain musically active. Lennon was shot and killed in December 1980, and Harrison died of lung cancer in November 2001. </p>
         <br>
+        <p><a href = "beatlesmusic.html"> albums? </a></p>
         <br>
-        <p><a href = "portfolioabout.html"> learn more abt sara </a></p>
 	</div>
-    <img class = "pic1"; src= "webdesignme.jpg";>
-	<div class = "block3"> 
-		<p> i eat cake because it's someone's birthday somewhere </p>
+    
+	<div class = "text4">
+		<p> why </p>
+        <br>
+		<p> juice and smoothies? </p>
 	</div>
-    <div class = "end1"> 
-		<p> @2020 sara duan </p>
-        <p> instagram: @sarajduan </p>
+    
+	<div class = "end1">
+		<p> . </p>
 	</div>
+    
 	
 	<ul class = "navbar">
-		<li><a href = "portfolioprojects.html"> projects </a></li>
-		<li><a href = "portfolioabout.html"> about </a></li>
-		<li><a href = "portfoliomain.html"> home </a></li>
+		<li><a href = "beatlesstore.html"> store </a></li>
+		<li><a href = "beatlesmusic.html"> music </a></li>
+		<li><a href = "beatlesmain.html"> home </a></li>
 	</ul>
+    <div class = "line"> 
+        <p> . </p>
+    </div>
+	 
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
-	<div class = "logo">
-		<p> Sara Duan </p>
-	</div>
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script>
     
 </body>
 </html>
